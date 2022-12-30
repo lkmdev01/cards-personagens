@@ -56,7 +56,7 @@ body{
 
 .card .details{
     position: absolute;
-    bottom: -160px;
+    bottom: -135px;
     left: 0;
     padding: 20px;
     width: 100%;
@@ -87,8 +87,9 @@ body{
     font-size: 1em;
 }
 
-.card .details .rating .fa-star span{
+.card .details .rating  span{
     color: #fff;
+    margin-left: 5px;
 }
 
 .card .details .tags{
