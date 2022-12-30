@@ -56,7 +56,7 @@ body{
 
 .card .details{
     position: absolute;
-    bottom: 0;
+    bottom: -160px;
     left: 0;
     padding: 20px;
     width: 100%;
@@ -65,7 +65,7 @@ body{
 }
 
 .card:hover .details{
-    bottom: 40px;
+    bottom: 0px;
 }
 
 .card .details .logo{
@@ -89,4 +89,55 @@ body{
 
 .card .details .rating .fa-star span{
     color: #fff;
+}
+
+.card .details .tags{
+    position: relative;
+    margin-top: 5px;
+}
+
+.card .details .tags span{
+    padding: 2px 5px;
+    margin-right: 5px;
+    color: #fff;
+    background: #03a8f5;
+    border-radius: 4px;
+}
+
+.card .details .tags span:nth-child(2){
+    background: #ff5722;
+}
+
+.card .details .info{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.card .details .cast{
+    position: relative;
+}
+
+.card .details .cast h4{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.card .details .cast ul{
+    position: relative;
+    display: flex;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.card .details .cast ul li{
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.card .details .cast ul li img{
+    max-width: 100%;
 }
